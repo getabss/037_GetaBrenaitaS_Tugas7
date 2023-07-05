@@ -1,0 +1,141 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* CSS untuk foto profile */
+#profile{
+  background: white;
+  display: flex;
+}
+
+.profile-photo{
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.profile-photo img{
+  width: 200px;
+  height: 200px;
+  border-radius: 90%;
+  border: 5px;
+  border-style: solid;
+  border-color: orange;
+}
+
+.profile-text{
+  padding: 20px;
+}
+
+
+.profile-text h1{
+  font-size: 25px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-text h2{
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: grey;
+}
+
+.action button{
+ border-radius: 10px;
+ border: 1px;
+ color: white;
+ border-style: solid;
+ border-color: blue;
+ padding: 8px 4px;
+ margin: 4px 2px;
+ background-color:blue
+}
+
+.action button:hover {
+  background-color: white;
+}
+
+#detail{
+  display:flex;
+  justify-self: end;
+  background-color: white;
+}
+
+p{
+  font-weight: bold;
+}
+
+table{
+  list-style: none;
+  margin: 20px 12px; 
+}
+
+table tr td{
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+  justify-content: center;
+}
+
+@media(min-width:900px) {
+  .selector { 
+        width:850px; 
+   }
+} 
+
+@media(max-width:750px) {
+   .selector { 
+         width:700px;
+   }
+}
